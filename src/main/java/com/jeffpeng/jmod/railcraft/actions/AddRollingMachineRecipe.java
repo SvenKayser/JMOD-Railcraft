@@ -27,7 +27,7 @@ public class AddRollingMachineRecipe extends BasicAction {
 		
 		if(valid) {
 			RailcraftCraftingManager.rollingMachine
-									.addRecipe(recipe.getRecipeOutput(), 
+									.addRecipe(recipe.getRecipeOutputProxy(), 
 											   recipe.getIngredientArray());
 		}
 		
