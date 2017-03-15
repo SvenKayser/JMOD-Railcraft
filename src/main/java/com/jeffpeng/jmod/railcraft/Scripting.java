@@ -4,7 +4,6 @@ import java.util.List;
 
 import com.jeffpeng.jmod.JMODRepresentation;
 import com.jeffpeng.jmod.primitives.ModScriptObject;
-import com.jeffpeng.jmod.primitives.OwnedObject;
 import com.jeffpeng.jmod.railcraft.actions.AddRollingMachineRecipe;
 import com.jeffpeng.jmod.railcraft.actions.RemoveRollingMachineRecipe;
 
