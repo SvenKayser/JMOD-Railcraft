@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.jeffpeng.jmod.JMODRepresentation;
 import com.jeffpeng.jmod.crafting.StringListRecipe;
+import com.jeffpeng.jmod.descriptors.ItemStackDescriptor;
 import com.jeffpeng.jmod.primitives.BasicAction;
 
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
@@ -11,10 +12,10 @@ import mods.railcraft.api.crafting.RailcraftCraftingManager;
 
 public class AddRollingMachineRecipe extends BasicAction {
 
-	private String outputItemStr;
+	private ItemStackDescriptor outputItemStr;
 	private List<String[]> shape;
 	
-	public AddRollingMachineRecipe(JMODRepresentation owner, String outputItemStr, List<String[]> shape) {
+	public AddRollingMachineRecipe(JMODRepresentation owner, ItemStackDescriptor outputItemStr, List<String[]> shape) {
 		super(owner);
 		this.outputItemStr = outputItemStr;
 		this.shape= shape;
